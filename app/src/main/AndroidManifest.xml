@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/cheers"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/cheers"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewYeyen"
         tools:targetApi="31">
@@ -19,7 +19,6 @@
             android:theme="@style/Theme.NewYeyen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -41,7 +40,6 @@
         <activity android:name=".PersonMin"/>
         <activity android:name=".PersonNurul"/>
         <activity android:name=".LanguageAct"/>
-        <activity android:name=".FeedbackAct"/>
         <activity android:name=".AboutAct"/>
         <activity android:name=".GetHelpAct"/>
         <activity android:name=".ScmdFacebookAct"/>
@@ -55,6 +53,7 @@
         <activity android:name=".ScmdTwitterAct"/>
         <activity android:name=".ScmdWangsafAct"/>
         <activity android:name=".ScmdYoutubeAct"/>
+        <activity android:name=".TabLayoutAct"/>
     </application>
 
 </manifest>

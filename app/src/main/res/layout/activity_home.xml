@@ -87,69 +87,65 @@
         android:text="Hi, Anye"/>
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:overScrollMode="never"
-        android:scrollbars="vertical"></ScrollView>
 
-        <ImageView
-            android:layout_width="wrap_content"
+
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/bck"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="10dp"
-            android:layout_below="@id/hi"
-            android:id="@+id/back1"/>
+            android:layout_below="@+id/topp">
 
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:id="@+id/btnadr"
-            android:layout_toRightOf="@+id/back1"
-            android:layout_below="@id/hi"
-            android:layout_marginTop="80dp"
-            android:layout_marginLeft="-10dp">
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="100dp"
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cheers!"
-                android:textColor="@color/black"
-                android:background="@drawable/round_button_background"
-                android:textStyle="bold"
-                android:layout_weight="1"/>
+                android:src="@drawable/bck"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/back1"/>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="100dp"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Connect!"
-                android:textColor="@color/black"
-                android:background="@drawable/round_button_background"
-                android:textStyle="bold"
-                android:layout_weight="1"/>
+                android:orientation="vertical"
+                android:id="@+id/btnadr"
+                android:layout_toRightOf="@+id/back1"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="-10dp">
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Visit!"
-                android:textColor="@color/black"
-                android:background="@drawable/round_button_background"
-                android:textStyle="bold"
-                android:layout_weight="1"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cheers!"
+                    android:textColor="@color/black"
+                    android:background="@drawable/round_button_background"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
 
-        </LinearLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Connect!"
+                    android:textColor="@color/black"
+                    android:background="@drawable/round_button_background"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
 
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Visit!"
+                    android:textColor="@color/black"
+                    android:background="@drawable/round_button_background"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:src="@drawable/cwo"
                 android:layout_marginTop="-20dp"
-                android:layout_below="@id/hi"
                 android:id="@+id/cwo"/>
 
             <TextView
@@ -177,55 +173,55 @@
                 android:text="'Cheers! I'd like to talk to you'"/>
 
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="-20dp"
-            android:src="@drawable/bck"
-            android:layout_below="@id/back1"
-            android:id="@+id/back2"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:id="@+id/btnjhn"
-            android:layout_toRightOf="@+id/back1"
-            android:layout_below="@id/btnadr"
-            android:layout_marginTop="110dp"
-            android:layout_marginLeft="-10dp">
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="100dp"
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cheers!"
-                android:textColor="@color/black"
-                android:background="@drawable/round_button_background"
-                android:textStyle="bold"
-                android:layout_weight="1"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/bck"
+                android:layout_below="@id/back1"
+                android:id="@+id/back2"/>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="100dp"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Connect!"
-                android:textColor="@color/black"
-                android:background="@drawable/round_button_background"
-                android:textStyle="bold"
-                android:layout_weight="1"/>
+                android:orientation="vertical"
+                android:id="@+id/btnjhn"
+                android:layout_toRightOf="@+id/back1"
+                android:layout_below="@id/btnadr"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="-10dp">
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Visit!"
-                android:textColor="@color/black"
-                android:background="@drawable/round_button_background"
-                android:textStyle="bold"
-                android:layout_weight="1"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cheers!"
+                    android:textColor="@color/black"
+                    android:background="@drawable/round_button_background"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
 
-        </LinearLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Connect!"
+                    android:textColor="@color/black"
+                    android:background="@drawable/round_button_background"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Visit!"
+                    android:textColor="@color/black"
+                    android:background="@drawable/round_button_background"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
 
             <ImageView
                 android:layout_width="300dp"
@@ -258,6 +254,9 @@
                 android:id="@+id/jhn"
                 android:layout_below="@id/jehan"
                 android:text="'Cheers! Let's get to know each other!'"/>
+        </RelativeLayout>
+
+
 
 
 </RelativeLayout>
